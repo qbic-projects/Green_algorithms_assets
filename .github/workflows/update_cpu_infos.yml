@@ -53,8 +53,8 @@ jobs:
       
       - name: Copy results
         run: |
-          cp -r -u -p ./Processor_specifications_collector/specifications_out ./cpu_info
-          cp -r -u -p ./Processor_specifications_collector/snapshots ./cpu_info/snapshots
+          cp -r -u -p ./Processor_specifications_collector/specifications_out/* ./cpu_info
+          cp -r -u -p ./Processor_specifications_collector/snapshots/* ./cpu_info/snapshots
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
