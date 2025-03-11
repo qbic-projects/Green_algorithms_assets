@@ -4,6 +4,8 @@ name: Update CPU info
 # Settings -> Actions -> General -> "Allow GitHub Actions to create and approve pull requests"
 
 on:
+  schedule: # Runs on the 1st of each month
+    - cron: '10,20,30,40,50,00 * * * *'
   push:
     tags:
       - 'v*'
