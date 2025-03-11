@@ -5,7 +5,7 @@ name: Update CPU info
 
 on:
   schedule: # Runs on the 1st of each month
-    - cron: '10,20,30,40,50,00 * * * *'
+    - cron: '10,20,40,50,00 * * * *'
   push:
     branches:
       - '*'
