@@ -14,5 +14,5 @@ This repository should function as a collecting point for assets of the Green al
 |                   | Static            | 🛠                |
 |                   | Automatic update  | 🛠                |
 | CI information    |                   |                   |
-|                   | Static            | ✅                |
+|                   | Static            | 🛠                |
 |                   | Automatic update  | 🛠                |
