@@ -7,8 +7,8 @@ on:
   schedule: # Runs on the 1st of each month
     - cron: '10,20,30,40,50,00 * * * *'
   push:
-    tags:
-      - 'v*'
+    branches:
+      - '*'
 
 permissions:
   contents: write
